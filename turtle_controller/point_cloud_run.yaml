@@ -1,0 +1,9 @@
+free_thresh: 0.196
+image: point_cloud_run.pgm
+negate: 0
+occupied_thresh: 0.65
+origin:
+- -14.550124454987044
+- -15.320047948327085
+- 0.0
+resolution: 0.05
