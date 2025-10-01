@@ -71,6 +71,3 @@ In this run, the **navigation goal is Door1**, and as shown in the map, the robo
 - Webots R2023 or later  
 - Python 3.8 or higher  
 - Webots Python API (installed with Webots)  
-- Python dependencies:
-  ```bash
-  pip install numpy matplotlib
