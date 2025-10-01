@@ -62,7 +62,7 @@ A full simulation run has also been recorded and converted to an animated GIF fo
 In this run, the **navigation goal is Door1**, and as shown in the map, the robot successfully reaches the position directly in front of the door:
 
 - **Simulation Demonstration:**  
-  ![Simulation Demo](output.gif)
+  ![Simulation Demo](simulation/output.gif)
 
 ---
 
