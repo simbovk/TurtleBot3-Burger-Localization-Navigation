@@ -8,7 +8,7 @@ The simulation integrates a custom world (`final.wbt`) and a Python-based contro
 
 - **Mapping** is achieved through occupancy grids and metric map generation.  
 - **Localization** is performed using **particle filtering**, which allows the robot to estimate its pose in the environment despite sensor noise.  
-- **Navigation** is guided by the **A* search algorithm**, enabling the robot to compute collision-free paths to target destinations.  
+- **Navigation** is guided by the **A-star search algorithm**, enabling the robot to compute collision-free paths to target destinations.  
 
 Importantly, this work **does not use GPS or compass sensors**. Localization is achieved entirely through odometry and range sensor data.  
 
