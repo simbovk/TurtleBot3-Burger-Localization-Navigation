@@ -174,7 +174,7 @@ def ds_update():
     zB=(ds_back.getValue()/1000.0)*MAX_SENSOR_RANGE
     pf.update_ds_all({"L":(+np.pi/2,zL),"R":(-np.pi/2,zR),"F":(0,zF),"B":(np.pi,zB)})
 
-# =================== QR Detection (ساده مثل کد قبلی) ===================
+# =================== QR Detection ===================
 def detect_qr(camera):
     """Detect QR codes using OpenCV and return decoded number if found."""
     width = camera.getWidth()
@@ -243,7 +243,7 @@ while robot.step(TIME_STEP)!=-1:
     dist=np.hypot(gx-est[0],gy-est[1])
     print(f"[POSE] ({est[0]:.2f},{est[1]:.2f},{est[2]:.2f}) → Goal {goal_id} Dist={dist:.2f}")
     if dist<0.4:
-        print("Goal Reached ✅")
+        print("Goal Reached")
         break
     path=plan_to_goal(goal_id)
     if path: move_along(path)
