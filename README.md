@@ -36,10 +36,10 @@ This repository provides both the simulation world and the analysis scripts requ
 The following figures demonstrate the detected door positions:
 
 - **Doors on Grid (pixels):**  
-  ![Doors on Grid](point_cloud_run_doors_grid.png)
+  ![Doors on Grid](turtle_controller/point_cloud_run_doors_grid.png)
 
 - **Doors on Map (meters):**  
-  ![Doors on Map](point_cloud_run_doors_meters.png)
+  ![Doors on Map](turtle_controller/point_cloud_run_doors_meters.png)
 
 A full simulation run has also been recorded and converted to an animated GIF for demonstration purposes:
 
